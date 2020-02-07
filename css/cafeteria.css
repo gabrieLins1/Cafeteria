@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  /* zerar a margem externa dos elementos */
+  padding: 0;
+  /* zerar a margem interna dos elementos */
+}
+
+header {
+  /* vamos adicionar uma imagem ao cabeçalho */
+  background-image: url("../img/cafe10.jpg");
+  background-position: 0px -300px;
+  height: 300px;
+  /*autura do cabeçalho  */
+  transition: ease 1s;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+
+  font-size: 100px;
+  padding-top: 100px;
+  text-shadow: 50px 51px 51px rgb(50, 0, 0);
+}
+/* vamos formatar os elementos de li para dicar um ao lado do outro
+com o comando display */
+nav ul li {
+  /* dispor os links au lado do outro */
+  display: inline-block;
+
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* alinhar os elementos de link ao centro usando
+text-align:center no nav, assim tudo que estiver 
+dentro do nav ira o centro */
+nav {
+  text-align: center;
+  margin-top: 30px;
+  /* a cor utilizada  para a nav foi o rgba, que
+  sigginifica red green blue a alpha(trasparencia), onde
+  ao valor mais proximo do 0(zero) e totalmente trasparente e
+  quando mais proximo do 1 e totalmente solido. neste caso
+  estamos usaondo 80% de solido. neste caso
+  20% de transparencia. */
+  background-color: rgb(255, 255, 255, 0.5);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav ul li a {
+  color: rgb(0, 0, 0, 0.5);
+  /* para tirar o sublinhado (underlaine) dos link 
+    utilizaremos o vomando text-decoration com o valor*/
+  text-decoration: none;
+  font-family: "Jim Nightshade", cursive;
+  /* aplicaçao de negrito a letra */
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+  color: (255, 23, 30, 2);
+  padding-left: 10px;
+  background-color: (100, 100, 100, 5);
+}

@@ -64,3 +64,23 @@ nav ul li a:hover {
   padding-left: 10px;
   background-color: (100, 100, 100, 5);
 }
+
+/* criaçao da formataçao do rodape(footer) */
+footer {
+  background-color: royalblue;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: "abel";
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+div ul li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+div a {
+  color: rgb(50, 0, 0);
+  text-decoration: none;
+}

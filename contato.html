@@ -33,7 +33,51 @@ barra de navegaçao; -->
     </header>
 
     <!-- a estrutura da area main fica reservada ao coteudo das paginas especificas -->
-    <main></main>
+    <main>
+      <h2>Contato</h2>
+
+      <form action="comfirmacoa.html">
+        <label>nome* </label>
+        <input type="text" name="nome" placeholder="mome completo" required />
+
+        <label>e-mail*</label>
+        <input
+          type="email"
+          neme="email"
+          placeholder="exemplo@dominio.com.br"
+          required
+        />
+
+        <lebel>telefone</lebel>
+        <input type="submit" value="telefone" />
+
+        <lebel>SEXO</lebel>
+        <span id="sexo">
+          <input type="radio" name="sexo" value="masculino" /> masculino
+          <input type="radio" name="sexo" value="feminino" /> feminino
+          <input type="radio" name="sexo" value="outros" /> outros
+        </span>
+
+        <select name="assunto">
+          <option value="selecione">selecione o assunto</option>
+          <option value="elogio">elogio</option>
+          <option value="sugestao">sugestao</option>
+          <option value="reclamação">reclamação</option>
+          <option value="problemas">problemas</option>
+        </select>
+
+        <label>mensagem</label>
+        <textarea name="mensagem"></textarea>
+
+        <span id="check"
+          ><input type="checkbox" name="newsletter" />
+          desejo receber mensagem e notifiçao sobre promoçoes e eventos em email
+          e telefone
+        </span>
+
+        <input type="submit" value="Enviar" />
+      </form>
+    </main>
 
     <!-- criaçao da area do rodape com comando footer.esta area se destina
 a exibbiçao doendereço email, telefone e redes sociais -->

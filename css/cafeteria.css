@@ -182,3 +182,72 @@ com o comentario opacity. onde os valores  1 totalmente
   width: 70%;
   float: left;,
 }
+
+form{
+
+  border: 1px solid red;
+  width: 50%;
+
+  margin-left:auto ;
+  margin-right:auto ;
+  padding: 10px;
+  font-family:
+}
+  label{
+    /* para dispor os elementos um a baxo do outro utilizaremos
+    o comando display block */
+    display:block ;
+    /* aplicaremos negrito usamos o comando font-weight com 
+     o valor bold */
+     font-weight :bold;
+     font-size: 15px;
+     /* border: ; */
+     /* border-bottom: ; */
+    border-radius:40px ;
+  }
+
+  input[type=text],input[type="email"],input[type="tel"]{
+width: 95%;
+padding: 10px;
+margin-bottom: 10px;
+border-radius:40px ;
+background-color: rgb (0,0,0,);
+  }
+
+  input[type="tel"]{
+    width: 30%;
+  }
+  #sexo{
+    display:block;
+    margin-bottom: 15px;
+  }
+  select{
+padding: 10px;
+width: 20%;
+
+  }
+  option.option:hover{
+ background-color: rgb(100,0,0);
+color: white;
+cursor: pointer;
+padding: 5px;
+
+  }
+
+  textarea{
+
+    width: 60%;
+    height: 150px;
+    display: block;
+  }
+
+  input[type=submit]{
+display: block;
+border: 0;
+color: white;
+padding: 5px;
+background: rgb(50, 0, 0);
+cursor: pointer;
+
+
+  }

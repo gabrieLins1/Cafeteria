@@ -7,7 +7,7 @@
 
 header {
   /* vamos adicionar uma imagem ao cabeçalho */
-  background-image: url("../img/cafe10.jpg");
+  background-image: url("../img/cafeteria2.jpg");
   background-position: 0px -300px;
   height: 300px;
   /*autura do cabeçalho  */
@@ -83,4 +83,102 @@ div ul li {
 div a {
   color: rgb(50, 0, 0);
   text-decoration: none;
+}
+
+main {
+  /* vamos uma margem interna de 20px utilizaremos o comando padding */
+  padding: 20px;
+}
+h2 {
+  font-family: "Dancing Script", cursive;
+  color: rgb(150, 0, 0);
+  font-size: 20px;
+  border-bottom: 4px double rgb(150, 0, 0);
+  padding-left: 620px;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 70px;
+  font-size: 15pt;
+  margin-bottom: 30px;
+  letter-spacing: 5px;
+}
+
+p {
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: justify;
+  /* aplicaremos um comando que aumenta a altura da linha. esse efeito
+  simula o espaçamento entre as linhas encontradas no word. o comando e 
+  line-height -> linha height */
+  line-height: 25px;
+  margin-bottom: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#home {
+  text-align: center;
+}
+
+#home img {
+  height: 500px;
+  width: 500px;
+  margin: 10px;
+  /* mamos aplicar um efeito de transparencia
+com o comentario opacity. onde os valores  1 totalmente
+ visivel e 0 totalmente trasparente */
+  opacity: 0.5;
+  border-radius: 50%;
+  transition: ease 0.5s;
+}
+
+#home img:hover {
+  opacity: 1;
+  transform: scale(1.2);
+  /* cursor: pointer; */
+  /* transform: rotatex(360deg); */
+}
+#acafeteria {
+  text-align: center;
+}
+#acafeteria iframe {
+  width: 550px;
+  height: 550px;
+}
+#video {
+  text-align: center;
+}
+/* abaixo a aformataçao para a pagina cardapio */
+#conteiner,
+#linha,
+#imagem,
+#texto {
+  /* border: 1px solid red; */
+}
+#conteiner {
+  display: inline-block;
+  /* border-bottom: 1px solid silver; */
+  margin-bottom:50px;
+  box-shadow:0px 10px 20px silver;
+}
+#linha {
+  display: inline-block;
+  width: 80%;
+}
+#imagem img {
+  width: 250px;
+  height: 250px;
+}
+#imagem {
+  width: 250px;
+  height: 250px;
+  /* fazer  imagem flutua pra esquerda */
+  float: left;
+}
+
+#texto {
+  padding: 20px;
+  width: 70%;
+  float: left;,
 }
